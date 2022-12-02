@@ -1,0 +1,159 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10570992700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch The Application",
+            "match": {
+              "location": "com.stepdefinition.Stepdefinition.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-01T14:37:26.881Z",
+        "line": 8,
+        "name": "Search Function",
+        "description": "",
+        "id": "search-functionality;search-function",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6876556400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user Click On The Today\u0027s Deals Link in Amazon Home Page",
+            "match": {
+              "location": "com.stepdefinition.Stepdefinition.user_click_on_the_today_s_deals_link_in_amazon_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 348231100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Click On Price Link Under Price Category",
+            "match": {
+              "location": "com.stepdefinition.Stepdefinition.user_click_on_price_link_under_price_category()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8404568300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click On Any One Of The Product",
+            "match": {
+              "location": "com.stepdefinition.Stepdefinition.user_click_on_any_one_of_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9186086500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user Click On the Bluetooth Product",
+            "match": {
+              "location": "com.stepdefinition.Stepdefinition.user_click_on_the_bluetooth_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 348231100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user Change The Driver Position",
+            "match": {
+              "location": "com.stepdefinition.Stepdefinition.user_change_The_driver_Position()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1643089400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user Change The Colour Of The Product",
+            "match": {
+              "location": "com.stepdefinition.Stepdefinition.user_change_the_colour_of_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5655743900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user Change The Quantity Of The Product",
+            "match": {
+              "location": "com.stepdefinition.Stepdefinition.user_change_the_quantity_of_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6986627100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user Click On The Add To Cart Button",
+            "match": {
+              "location": "com.stepdefinition.Stepdefinition.user_click_on_the_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7020651000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user Click On The Cart Button to view the products and its Navigate to \"Amazon.in Shopping Cart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amazon.in Shopping Cart\"",
+                  "offset": 71
+                }
+              ],
+              "location": "com.stepdefinition.Stepdefinition.user_click_on_the_cart_button_to_view_the_products_and_its_navigate_to(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Functionality",
+    "description": "",
+    "id": "search-functionality",
+    "keyword": "Feature",
+    "uri": "file:FeatureFiles/Amazon.feature",
+    "tags": []
+  }
+]
